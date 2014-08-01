@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8" />
+<title>Metalurgica Puerto Caldera</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+
+<link href="css/estilo.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/responsivemobilemenu.js"></script>
+<script	src="js/jquery.smint.js" type="text/javascript" ></script>
+
+<script type="text/javascript">
+
+
+$(document).ready( function() {
+    $('.subMenu').smint({
+    	'scrollSpeed' : 1000
+    });
+});
+
+
+</script>
+
+<!-- FlexSlider -->
+<link rel="stylesheet" href="flexslider/flexslider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="flexslider/flex.css" type="text/css" media="screen" />
+	<!-- Modernizr -->
+<script src="js/modernizr.js"></script>
+<script defer src="flexslider/jquery.flexslider.js"></script>
+
+<script type="text/javascript">
+
+    $(window).load(function(){
+      $('.flexslider').flexslider({
+        animation: "slide",
+        animationLoop: false,
+        itemWidth: 210,
+        itemMargin: 5,
+        minItems: 2,
+        maxItems: 4,
+        start: function(slider){
+          $('body').removeClass('loading');
+        }
+      });
+    });
+  </script>
+   <script src="flexslider/jquery.flex.js"/></script>
+      <script type="text/javascript">
+          $(window).load(function() {
+                  $('.flex').flex();
+                      });
+      </script>
+
+
+
+  <!--FIN FLEXSLIDER-->
+
+ <script type="text/javascript">
+  $(document).ready(function(){ // Script del Navegador
+    $("ul.subnavegador").not('.selected').hide();
+    $("a.desplegable").click(function(e){
+      var desplegable = $(this).parent().find("ul.subnavegador");
+      $('.desplegable').parent().find("ul.subnavegador").not(desplegable).slideUp('slow');
+      desplegable.slideToggle('slow');
+      e.preventDefault();
+    })
+ });
+</script>
+
+</head>
+<body>
+<div class="wrap ">
+	<div class="section sTop">
+		<div id="fondonegro">
+		<div class="inner">
+			<img src="img/logompc.png"/>
+			<div class="titulo">
+			<h1 class="title">Nuestro certificado,</h1>
+			<h2 class="subtitle">es nuestro compromiso con usted.</h2>
+			</div>
+			</div>
+		</div>
+
+	</div>
+
+	<div class="subMenu" >
+	 	<div class="inner">
+			<div class="rmm">
+		 		<ul>
+			 		<li><a href="#sTop" class="subNavBtn">Inicio</a></li>
+			 		<li><a href="#s1" class="subNavBtn">Nosotros</a></li>
+					<li><a href="#s2" class="subNavBtn">Servicios</a></li>
+					<li><a href="#s3" class="subNavBtn">Clientes</a></li>
+					<li><a href="#s4" class="subNavBtn">Noticias</a></li>
+					<li><a href="#s5" class="subNavBtn">Contacto</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<div class="section s1">
+		<div class="inner ">
+			<h1>Nosotros</h1>
+			<div class="flex">
+                                   <ul class="slides">
+                                       <li>
+                                       	<div id="contenido">
+                                       	<h3>Misión</h3>
+										<p>Metalúrgica Puerto Caldera es una empresa nacional dedicada a la fabricación, reparación de componentes, piezas metalmecánica y servicios de mantencón en terreno para el sector industrial de la minería. Considera de gran relevancia los requerimientos de sus clientes, por tanto, realiza sus procesos bajos estándares de calidad y mejora continua, de forma segura y conrespecto a su medio ambiente. En conformidad a la legislación vigente y acorde al propósito de crecimiento económico de la empresa y sus socios.</p>
+                                       	</div>
+                                       </li>
+                                       <li>
+                                       	<div id="contenido">
+                                       	<h3>Visión</h3>
+										<p>Ser el principal aliado estratégico de la industria y la minería.<br><br>
+										Y ser líderes en soluciones integrales a la industria nacional.</p>
+										</div>
+                                       </li>
+                                       <li>
+                                       	<div id="contenido">
+                                       	<h3>Valores</h3>
+										<h4>Valor Funcional</h4>
+										<p>Calidad: Realiza sus procesos bajo estándares de calidad y mejora continua, para entregar el mejor producto a sus clientes.</p>
+									    <h4>Valor Ético</h4>
+										<p>Probidad: Desarrollar deberes y responsabilidades en forma honesta y transparente.
+										Responsabilidad: Actuar de manera responsable hacia sus trabajadores, cliente, comunidad y medio ambiente.</p>
+										</div>
+                                       </li>
+                                       <li>
+                                       	<div id="contenido">
+                                       	<h3>Reseña</h3>
+										<p>Metalúrgica Puerto de Caldera, nace el 01 de abril de 1998, iniciandosus actividades en el rubro metal mecánico,
+										constituyéndose como una Sociedad Anónima Cerrada. En la actualidad y desde entonces, centra sus negocios en la
+										prestación de servicios enfocados en la fabriación, reparación y recuperación de piezas y partesde acero, de sofisticados
+										equipos de La Gran Minería e Industrias, como también los servicios de mantención y aseo industrial de plantas mineras.
+										De acuerdo a su capacidad instalada e infraestructura y a los requerimientos de sus clientes,
+										que nuestra empresa ha concentrado sus operaciones principalmente en la  II y III región.</p>
+										</div>
+                                       </li>
+                                       <li>
+                                       	<div id="contenido">
+										<h3>Servicios</h3>
+										<p>MPC esta orientada a cumplir con los requisitos de cada cliente como plazos de entrega, calidad de servicios, información
+										relevante del servicio, seguridad, prevención y cuidado al medio ambiente, dando así valor agregado a sus servicios.
+										Entre sus principales productos destacan la línea de fabricación de contraejes, piñones de molinos, ejes de diferentes
+										dimensiones, recuperación de componentes de chancadores, reparación de llantas de camiones mineros de alto tonelaje,
+										estructuras aceros y en general, todos los productos y servicios de una mestranza. Tambien realiza trabajos en terreno
+										como desmontaje-montaje de equipos mineros y estructuras, mantención en planta y aseo industrial.</p>
+										</div>
+                                       </li>
+                                       <li>
+                                       	<div id="contenido">
+										<h3>Infraestructura</h3>
+										<p>MPC ha concentrado sus operaciones principalmente en la II y III región. Cuenta con maquinarias de gran capacidad
+										productiva respecto a demensiones y toneladas, únicas en la III región, ventaja competitiva, que le permiten entregar un
+										un servicio más acabado que cualquier otra maestranza regional. Su capacidad instalada e infraestructura en conjunto a su
+										dotación técnica y experticie, le permite fabricar repuestos alternativos a las importaciones con los respectivos beneficios en
+										calidad y tiempos de entrega. Cuenta con una infraestrcutura edificada de 1100m2 y una superficie total de 3500m2 en
+										Caldera, dentro de los cuales se establecen las áreas de máquinas, mécanica herramientas y soldadura y calderería,
+										y 1400m2 construidos y 5000m2 de terreno en plaza de negocios La Negra den Antofagasta, II región.</p>
+										</div>
+										</li>
+										<li>
+										<div id="contenido">
+										<h3>Certificaciones</h3>
+										<p>Para garantizar la mejora continua de su oferta y brindar confiabilidad a los clientes,
+										Metalúrgica Puerto Caldera, Posee certificaciones de calidad las que rigen todas sus
+										operaciones de acuerdo a la Norma ISO 9001:2000.</p>
+										</div>
+										</li>
+
+                                   </ul>
+
+                             </div>
+		</div>
+	</div>
+
+	<div class="section s2">
+		<div class="inner">
+			<h1>Servicios</h1>
+			<div class="servicios">
+				<div id="servi">
+					<ul class="navegador">
+				      <li><a href="#" class="desplegable" class="link inactive active" onClick="Javascript=highlight">Metalmecánica</a>
+				        <ul class="subnavegador">
+				        	<div id="metalmecanica" class="conte"><img src="img/fondo2.jpg"/><p>PRUEBA CONTENIDOPRUEBA CONTENIDOPRUEBA CONTENIDOPRUEBA CONTENIDOPRUEBA CONTENIDOPRUEBA CONTENIDOPRUEBA CONTENIDOPRUEBA CONTENIDOPRUEBA CONTENIDOPRUEBA CONTENIDOPRUEBA CONTENIDOPRUEBA CONTENIDOPRUEBA CONTENIDOPRUEBA CONTENIDOPRUEBA CONTENIDOPRUEBA CONTENIDOPRUEBA CONTENIDOPRUEBA CONTENIDO</p></div>
+				        </ul>
+				      </li>
+				      <li><a href="#" class="desplegable">Máquinas Herramientas</a>
+				        <ul class="subnavegador">
+				          <div id="maquinas" class="conte">PRUEBA MAQUINAS</div>
+				        </ul>
+				        </li>
+				      <li><a href="#" class="desplegable">Engranajes</a>
+				        <ul class="subnavegador">
+				        	<div id="engranajes" class="conte">PRUEBA ENGRANJES</div>
+				        </ul>
+				        </li>
+				      <li><a href="#" class="desplegable">Soldadura/Calderería</a>
+				        <ul class="subnavegador">
+				        	<div id="soldadura" class="conte">PRUEBA SOLDADURA / CALDERERIA</div>
+				        </ul>
+				        </li>
+
+				  </ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+	<div class="section s3">
+		<div class="inner">
+			<h1>Clientes</h1>
+			<section class="slider">
+			        <div class="flexslider carousel">
+			          <ul class="slides">
+			            <li>
+			  	    	    <img src="img/logosclientes/angloamerican1.png" />
+			  	    		</li>
+			  	    		<li>
+			  	    	    <img src="img/logosclientes/codelco1.png" />
+			  	    		</li>
+			  	    		<li>
+			  	    		<img src="img/logosclientes/armadadechile1.png" />
+			  	    		</li>
+			  	    		<li>
+			  	    	    <img src="img/logosclientes/bhp.png" />
+			  	    		</li>
+			  	    		<li>
+			  	    	    <img src="img/logosclientes/enami1.png" />
+			  	    		</li>
+			  	    		<li>
+			  	    	   	<img src="img/logosclientes/finning1.png" />
+			  	    		</li>
+			  	    		<li>
+			  	    	    <img src="img/logosclientes/guacolda1.png" />
+			  	    		</li>
+			  	    		<li>
+			  	    	    <img src="img/logosclientes/kinross1.png" />
+			  	    		</li>
+			  	    		<li>
+			  	    	    <img src="img/logosclientes/maricunga.png" />
+			  	    		</li>
+			  	    		<li>
+			  	    	    <img src="img/logosclientes/pucobre.png" />
+			  	    		</li>
+			  	    		<li>
+			  	    	    <img src="img/logosclientes/puertobahia.png" />
+			  	    		</li>
+			  	    		<li>
+			  	    	    <img src="img/logosclientes/sqm.png" />
+			  	    		</li>
+			          </ul>
+			        </div>
+			      </section>
+		</div>
+	</div>
+
+	<div class="section s4">
+		<div class="inner">
+			<h1>Noticias</h1>
+			<div class="news">
+    			<div class="image1">
+    				<a href="noticias/laboral.php">
+        			<img  src="img/laboral.gif" alt="Some awesome text"/>
+        			</a>
+    			</div>
+    			<div class="image2">
+        			<a href="noticias/social.php">
+        			<img  src="img/social.gif" alt="Some awesome text"/>
+        			</a>
+    			</div>
+
+			</div>
+		</div>
+	</div>
+
+	<div class="section s5">
+		<div class="inner">
+			<h1>Contacto</h1>
+			<div class="contacto">
+					<form method="POST" action="#" class='formulario'>
+						<div id="centrado">
+						<div id="contacto1">
+					      <ul>
+						    <li>
+						        <label for="name">Nombre:</label>
+						        <input type="text" name="nombre" required />
+						    </li>
+						    <li>
+						        <label for="name">Empresa:</label>
+						        <input type="text" name="empresa" required  />
+						    </li>
+						    <li>
+						        <label for="name">Ciudad:</label>
+						        <input type="text" name="ciudad" required  />
+						    </li>
+						    <li>
+						      <label for="email">E-mail:</label>
+						      <input type ="email" name="email" required/>
+						    </li>
+						    <li>
+						      <label for="telefono">Telefono:</label>
+						      <input type ="tel" name="telefono" placeholder= "81 45 99 "required/>
+						    </li>
+							<li>
+					        	<label for="mensaje">Comentario:</label><br><br>
+					      		<textarea name="mensaje" placeholder="Mensaje..." required ></textarea>
+					      		<button type="submit"><span class="fui-mail">Enviar</span></button>
+						  		<button type="reset"><span class="fui-cross">Borrar</span></button>
+					    	</li>
+					  	   </ul>
+						</div>
+						<div id="mapas">
+						<h2>Caldera</h2>
+						<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3552.854445774771!2d-70.810716!3d-27.066341999999995!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6e62329d92cdf03!2sMetalurgica+Puerto+Caldera!5e0!3m2!1ses-419!2scl!4v1406220844266" height="200" frameborder="0" style="border:0"></iframe><br><br>
+						<h2>Antofagasta</h2>
+						<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3552.854445774771!2d-70.810716!3d-27.066341999999995!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6e62329d92cdf03!2sMetalurgica+Puerto+Caldera!5e0!3m2!1ses-419!2scl!4v1406220844266" height="200" frameborder="0" style="border:0"></iframe>
+
+					</div>
+					</div>
+
+					</form>
+			</div>
+		</div>
+	</div>
+
+
+</div>
+
+</body>
+</html>

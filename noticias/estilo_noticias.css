@@ -1,0 +1,363 @@
+.labor, .social{
+	background: #fff;
+}
+#laboral img,#social img{
+	border-radius: .5em;
+	max-width: 20%;
+}
+div#laboral,div#detalle, div#social{
+	padding-top: 5em;
+}
+#detalle img{
+	border-radius: .5em;
+	max-width: 25%;
+}
+div#detalle img, div#cont_noticia{
+	display: inline-block;
+}
+div#cont_noticia{
+	vertical-align: top;
+	width: 50%;
+	margin-left: 1em;
+}
+div#noticia{
+	padding-top: 1em;
+	border-bottom: 1px solid #C9C9C9;
+}
+@font-face {
+  font-family: "Flat-UI-Icons";
+  src: url('../fonts/flat-ui-icons-regular.eot');
+  src: url('../fonts/flat-ui-icons-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/flat-ui-icons-regular.woff') format('woff'), url('../fonts/flat-ui-icons-regular.ttf') format('truetype'), url('../fonts/flat-ui-icons-regular.svg#flat-ui-icons-regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+* {margin: 0; padding: 0; outline: 0;}
+
+
+body {
+	font-family: Helvetica, Arial, Verdana, sans-serif;
+	color: #3e3e3e;
+	font-size: 12px;
+	background:#bfbfbf;
+
+}
+h1, h2 {
+	color: #3e3e3e;
+	font-family: Helvetica, sans-serif;
+	font-weight: 300;
+	margin:0 0 15px 0;
+}
+p {
+	margin: 0 0 15px 0;
+}
+
+a {
+	color: #3e3e3e;
+  vertical-align: middle;
+}
+
+
+
+.clear {
+	clear: both;
+}
+.wrap {
+	max-width: 100%;
+	z-index: 10;
+	position: relative;
+	margin: 0 auto;
+	padding: 0;
+
+}
+
+.section {
+	max-width: 100%;
+	z-index: 10;
+	position: relative;
+	margin: 0 auto;
+	padding: 0 0 20px 0;
+}
+
+
+.inner {
+	max-width: 80%;
+	margin: 0 auto;
+	position: relative;
+	min-height: 50px;
+	padding:30px 0;
+	font-size: 18px;
+	font-family: Helvetica, sans-serif;
+	font-weight: 300;
+}
+
+.inner:after {
+	  content: "";
+	  display: table;
+	  clear: both;
+}
+
+
+.subMenu {
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+  background: #006b4e;
+  box-shadow: 1em 1em 100px 5px black;
+}
+.subMenu img{
+  width:5em;
+}
+.subMenu .inner {
+  padding:0;
+  margin: 0 auto;
+}
+
+
+.subNavBtn {
+  display: block;
+  height: 35px;
+  width: 10%;
+  float: left;
+  margin: 0px 0px 0 0;
+  text-decoration: none;
+  font-size: 1.125em;
+  padding: 1.4em 1.2em;   /* R E V I S A R */
+  text-align: center;
+  color: #fff;
+}
+.subMenu a:hover {
+  background: #E57709;
+}
+
+.active {
+  background: #FC9F03;
+}
+.end {
+  margin: 0;
+}
+
+
+/* ESTILO MENU Y MENU MOBILE */
+
+.rmm {
+  display:block;
+  position:relative;
+  width:100%;
+  padding:0px;
+  margin:0 auto !important;
+  text-align: center;
+  line-height:19px !important;
+}
+
+
+.rmm .rmm-main-list, .rmm .rmm-main-list li {
+  margin:0px;
+  padding:0px;
+}
+.rmm ul {
+  display:block;
+  width:auto !important;
+  margin:0 auto !important;
+  overflow:hidden;
+  list-style:none;
+}
+
+
+/* sublevel menu - in construction */
+.rmm ul li ul, .rmm ul li ul li, .rmm ul li ul li a {
+  display:none !important;
+  height:0px !important;
+  width:0px !important;
+}
+/* */
+
+
+.rmm .rmm-main-list li {
+  display:inline;
+  padding:0px;
+  margin:0px !important;
+}
+.rmm-toggled {
+  display:none;
+  width:100%;
+  position:relative;
+  overflow:hidden;
+  margin:0 auto !important;
+}
+.rmm-button:hover {
+  cursor:pointer;
+}
+.rmm .rmm-toggled ul {
+  display:none;
+  margin:0px !important;
+  padding:0px !important;
+}
+.rmm .rmm-toggled ul li {
+  display:block;
+  margin:0 auto !important;
+}
+
+.rmm.minimal .rmm-main-list li a {
+  display:inline-block;
+  padding:8px 30px 8px 30px;
+  margin:0px -3px 0px -3px;
+}
+.rmm.minimal .rmm-toggled {
+  width:95%;
+  min-height:36px;
+}
+.rmm.minimal .rmm-toggled-controls {
+  display:block;
+  height:36px;
+  color:#333333;
+  text-align:left;
+  position:relative;
+}
+.rmm.minimal .rmm-toggled-title {
+  position:relative;
+  top:9px;
+  left:9px;
+
+}
+.rmm.minimal .rmm-button {
+  display:block;
+  position:absolute;
+  right:9px;
+  top:7px;
+}
+
+.rmm.minimal .rmm-button span {
+  display:block;
+  margin:4px 0px 4px 0px;
+  height:2px;
+  background:#333333;
+  width:25px;
+}
+.rmm.minimal .rmm-toggled ul li a {
+  display:block;
+  width:100%;
+  text-align:center;
+  padding:10px 0px 10px 0px;
+  border-bottom:1px solid #dedede;
+  color:#333333;
+}
+.rmm.minimal .rmm-toggled ul li:first-child a {
+  border-top:1px solid #dedede;
+}
+
+
+/* FIN ESTILO MENU Y MENU MOBILE */
+
+
+
+form ul {
+    display: block;
+    margin: 0 auto;
+    list-style-type:none;
+
+}
+form li{
+    padding:4px;
+    position:relative;
+    list-style-type:none;
+}
+form label {
+    float: left;
+    color: #fff;
+    display: inline-block;
+    font-family: arial;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 3px;
+    width: 120px;
+    text-align: justify;
+
+}
+form input {
+    height:30px;
+    width:15em;
+    padding:5px 8px;
+    margin-top: .7em;
+}
+
+/*----- estilos visuales de los elementos --------*/
+form input, form textarea, form button {
+    border:1px solid #aaa;
+    border-radius:.5em;
+    color: #555555;
+    font-size: 20px;
+    font-family: arial;
+
+
+}
+form input:focus, form textarea:focus {
+    background: #fff;
+    border:1px solid #555;
+    box-shadow: 0 0 3px #aaa;
+    border-radius:.5em;
+}
+
+form input:required:valid, form textarea:required:valid {
+    box-shadow: 0 0 5px #5cd053;
+    border-color: #28921f;
+    border-radius:.5em;
+}
+form input:focus:invalid, form textarea:focus:invalid {
+    box-shadow: 0 0 5px #d45252;
+    border-color: #b03535;
+    border-radius:.5em;
+}
+
+form textarea{
+    width: 22em;
+    height: 8em;
+}
+/* === Estilos del boton de Envio === */
+    form  button{
+        display: inline-block;
+        margin-left: 5px;
+        padding: 1em;
+    }
+button {
+   font-family: yorkville, Arial, sans-serif;
+   font-size: 20px;
+   font-weight: bold;
+   line-height: 1;
+   color: #444;
+   border: none;
+   background: #FFF;
+   border: 1px solid #f1f1f1;
+   border-radius: 5px;
+}
+button:hover {
+    background:  rgb(229,119,9);
+    color: #fff;
+}
+button:active {
+   background:#00BFFF;
+}
+
+
+.fui-mail, .fui-cross{
+  display: inline-block;
+  font-family: 'Flat-UI-Icons';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.fui-mail:before {
+  content: "\e01e";
+}
+.fui-cross:before {
+  content: "\e00b";
+}
+
+
+
+
