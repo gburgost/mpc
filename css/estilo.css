@@ -271,6 +271,7 @@ a {
 }
 
 .s1 {
+  height: 100%;
 	background:#fff;
 	color:#fff;
 }
@@ -278,64 +279,168 @@ a {
   color: #313131;
 }
 
-div #servi ul{
-  margin: 0;
-  padding: 0;
-}
-div#servi ul.navegador li{
-  background: #fff;
-  list-style: none;
-  padding: .5em;
-  width: 100%;
-  border: 1px solid #f1f1f1;
-  border-radius: 5px;
-}
-div#servi ul.navegador li:hover{
-  background:  rgb(229,119,9);
-  color: #fff;
-}
-div#servi ul.navegador li:active{
-  background:  rgb(229,119,9);
-
-}
-
-div#servi ul.navegador li a{
-  text-decoration: none;
-  font-family: yorkville, Arial, sans-serif;
-   font-size: 20px;
-   font-weight: bold;
-   color: #444;
-   border: none;
-}
-div#servi ul.navegador li a:hover{
-  color: #fff;
-}
-div.conte{
-  display: block;
-  margin: 1em auto;
-  max-width: 95%;
-}
-div.conte img, div.conte p{
-  display: inline-block;
-  vertical-align: middle;
-}
-div.conte p{
-  max-width: 65%;
-  margin-left: 2em;
-}
-div.conte img{
-  max-width: 30%;
-}
-
 .s2 {
+  height: 100%;
 	background: #006b4e;
 }
 .s2 a {
 	color: #fff;
 }
 
+#servi{
+  display: inline-block;
+  margin: 0 auto;
+  margin-bottom: 1em;
+  width: 45%;
+}
+
+.visor {
+    width: 320px;
+    margin: 10px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    cursor: default;
+}
+.visor .mascara {
+    width: 320px;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0
+}
+
+.visor img {
+    display: block;
+    position: relative;
+    width: 320px;
+}
+
+.visor h2 {
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    font-size: 17px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.8);
+    margin: 20px 0 0 0
+}
+
+.visor p {
+    font-family: Georgia, serif;
+    font-style: italic;
+    font-size: 12px;
+    position: relative;
+    color: #fff;
+    padding: 10px 20px 20px;
+    text-align: center
+}
+
+.visor a.info {
+    display: inline-block;
+    text-decoration: none;
+    padding: 7px 14px;
+    background: #000;
+    color: #fff;
+    text-transform: uppercase;
+    box-shadow: 0 0 1px #000
+}
+
+.visor a.info:hover {
+    box-shadow: 0 0 5px #000
+}
+.efecto img {
+    transition: all 0.2s linear;
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    -ms-transition: all 0.2s linear;
+}
+
+.efecto .mascara {
+    opacity: 0;
+    background-color: rgba(255,0,0, 0.7);
+    transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+}
+
+.efecto h2 {
+    transform: translateY(-100px);
+    opacity: 0;
+    transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+}
+
+.efecto p {
+    transform: translateY(100px);
+    opacity: 0;
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    -ms-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+
+.efecto a.info{
+    opacity: 0;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.efecto:hover img {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+}
+
+.efecto:hover .mascara {
+    opacity: 1;
+}
+
+.efecto:hover h2,
+.efecto:hover p,
+.efecto:hover a.info {
+    opacity: 1;
+    transform: translateY(0px);
+    -webkit-transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    -o-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+}
+
+.efecto:hover p {
+    transition-delay: 0.1s;
+    -webkit-transition-delay: 0.1s;
+    -moz-transition-delay: 0.1s;
+    -o-transition-delay: 0.1s;
+    -ms-transition-delay: 0.1s;
+}
+
+.efecto:hover a.info {
+    transition-delay: 0.2s;
+    -webkit-transition-delay: 0.2s;
+    -moz-transition-delay: 0.2s;
+    -o-transition-delay: 0.2s;
+    -ms-transition-delay: 0.2s;
+}
+
 
 .s3 {
+  height: 100%;
 	background: #fff;
 }
 .s3 h1{
@@ -344,6 +449,7 @@ div.conte img{
 
 
 .s4 {
+  height: 100%;
 	background: #006b4e;
 }
 
@@ -724,7 +830,13 @@ form.formulario  button{
       text-align: justify;
     }
 }
-
+@media only screen and (max-width: 890px){
+  #servi{
+    display: block;
+    width: 100%;
+    margin-bottom: 1em;
+  }
+}
 
 
 @media only screen and (max-width: 687px){
