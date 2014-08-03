@@ -674,6 +674,7 @@ button:active {
 }
 #mapas h2{
   color: #313131;
+  content: "xd";
 }
 /* Media JQuery es para posicionar la imagen de nuestra pagina dependiendo de la altura y la anchura de como se esta viendo la pagina en el navegador */
 
