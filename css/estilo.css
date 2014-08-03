@@ -11,7 +11,7 @@
 
 
 body {
-	font-family: Helvetica, Arial, Verdana, sans-serif;
+	font-family: "Open Sans", Arial, Verdana, sans-serif;
 	color: #e5e5e5;
 	font-size: 16px;
 	background:#bfbfbf;
@@ -19,7 +19,6 @@ body {
 }
 h1, h2 {
 	color: #fff;
-	font-family: Helvetica, sans-serif;
 	font-weight: 300;
 	margin:0 0 15px 0;
 }
@@ -94,7 +93,6 @@ a {
 	min-height: 50px;
 	padding:30px 0;
 	font-size: 18px;
-	font-family: Helvetica, sans-serif;
 	font-weight: 300;
 }
 
@@ -330,7 +328,6 @@ a {
 }
 
 .visor p {
-    font-family: Georgia, serif;
     font-style: italic;
     font-size: 12px;
     position: relative;
@@ -566,7 +563,6 @@ form label {
     float: left;
     color: #313131;
     display: inline-block;
-    font-family: arial;
     font-size: 25px;
     margin-top: .4em;
     padding: 3px;
@@ -588,9 +584,6 @@ form input, form textarea, form button {
     border-radius:.5em;
     color: #555555;
     font-size: 20px;
-    font-family: arial;
-
-
 }
 form input:focus, form textarea:focus {
     background: #fff;
@@ -622,7 +615,6 @@ form textarea{
         padding: .8em;
     }
 button {
-   font-family: yorkville, Arial, sans-serif;
    font-size: 20px;
    font-weight: bold;
    line-height: 1;
