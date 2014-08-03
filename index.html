@@ -58,18 +58,6 @@ $(document).ready( function() {
 
   <!--FIN FLEXSLIDER-->
 
- <script type="text/javascript">
-  $(document).ready(function(){ // Script del Navegador
-    $("ul.subnavegador").not('.selected').hide();
-    $("a.desplegable").click(function(e){
-      var desplegable = $(this).parent().find("ul.subnavegador");
-      $('.desplegable').parent().find("ul.subnavegador").not(desplegable).slideUp('slow');
-      desplegable.slideToggle('slow');
-      e.preventDefault();
-    })
- });
-</script>
-
 </head>
 <body>
 <div class="wrap ">
@@ -184,12 +172,12 @@ $(document).ready( function() {
 			<div class="servicios">
 				<div id="servi">
 				<div class="visor efecto">
-					<a href="#">
+					<a href="metalmecanica.html">
 						<img src="Prevencion/taller.jpg" />
 						<div class="mascara">
 						<h2>Metalmecanica</h2>
 						<p>Descripcion</p>
-						<a href="#" class="info">Leer mas</a>
+						<a href="metalmecanica.html" class="info">Leer mas</a>
 						</div>
 					</a>
 				</div>
