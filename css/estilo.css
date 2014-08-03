@@ -109,7 +109,7 @@ a {
 	z-index: 1000;
 	width: 100%;
 	background: #006b4e;
-	box-shadow: 1em 1em 100px 5px black;
+  box-shadow: rgba(0,0,0,.5) 0px 8px 20px;
 }
 .subMenu img{
 	width:5em;
