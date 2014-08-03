@@ -897,3 +897,60 @@ form.formulario  button{
 
   }
 }
+
+@media only screen and (max-width: 400px){
+
+
+  .sTop div.titulo{
+      padding-left: 2em;
+      top: 1em;
+
+    }
+
+    .sTop h1{
+      font-size: 1.2em;
+
+    }
+
+    .sTop h2{
+      font-size: .7em;
+
+    }
+
+    .sTop img{
+
+     max-width: 70%;
+     margin: 0 auto;
+     padding-left: 2em;
+
+    }
+
+    form textarea{
+    width: 15em;
+    height: 8em;
+
+}
+
+form.formulario  button{
+    text-align: center;
+    width: 15em;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+form  input{
+
+   width: 14em;
+   margin: 0 auto;
+}
+
+
+  #mapas{
+  width: 17em;
+  display: inline-block;
+
+}
+
+
+}
+
