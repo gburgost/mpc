@@ -849,16 +849,11 @@ form.formulario  button{
 
 @media only screen and (max-width: 760px){
 
-<<<<<<< HEAD
   .sTop div.titulo{
       padding-left: 1em;
-=======
      max-width: 10em;
      margin: 0 auto;
      padding-left: 2em;
-
->>>>>>> origin/master
-
     }
 
    .sTop h1 {
@@ -920,8 +915,6 @@ form.formulario  button{
   font-size: 15px;
 }
 
-<<<<<<< HEAD
-=======
     .sTop img{
 
      max-width: 10em;
@@ -929,10 +922,6 @@ form.formulario  button{
      padding-left: 2em;
 
     }
-
->>>>>>> origin/master
-
-
   }
 
 @media only screen and (max-width: 524px){
