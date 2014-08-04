@@ -855,8 +855,11 @@ form.formulario  button{
      padding-left: 2em;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> FETCH_HEAD
 =======
 >>>>>>> FETCH_HEAD
 =======
@@ -886,6 +889,7 @@ form.formulario  button{
 }
 
 @media only screen and (max-width: 655px){
+<<<<<<< HEAD
 
    .sTop div.titulo{
       padding-left: 1em;
@@ -907,6 +911,15 @@ form.formulario  button{
 
 =======
 
+=======
+
+   .sTop div.titulo{
+      padding-left: 1em;
+      top: 1em;
+
+    }
+
+>>>>>>> FETCH_HEAD
    .sTop h1 {
   font-size: 30px;
   letter-spacing: -1px;
@@ -918,6 +931,9 @@ form.formulario  button{
 }
 
 
+<<<<<<< HEAD
+>>>>>>> FETCH_HEAD
+=======
 >>>>>>> FETCH_HEAD
 }
 @media only screen and (max-width: 557px){
