@@ -1,29 +1,72 @@
 .labor, .social{
-	background: #fff;
+  background: #fff;
 }
 #laboral img,#social img{
-	border-radius: .5em;
-	max-width: 20%;
+  border-radius: .5em;
+  max-width: 20%;
 }
 div#laboral,div#detalle, div#social{
-	padding-top: 5em;
+  padding-top: 5em;
 }
 #detalle img{
-	border-radius: .5em;
-	max-width: 25%;
+  border-radius: .5em;
+  max-width: 25%;
 }
 div#detalle img, div#cont_noticia{
-	display: inline-block;
+  display: inline-block;
 }
 div#cont_noticia{
-	vertical-align: top;
-	width: 50%;
-	margin-left: 1em;
+  vertical-align: top;
+  width: 50%;
+  margin-left: 1em;
 }
 div#noticia{
-	padding-top: 1em;
-	border-bottom: 1px solid #C9C9C9;
+  padding-top: 1em;
+  border-bottom: 1px solid #C9C9C9;
 }
+
+a button.regresar{
+  position: absolute;
+  bottom: -.5em;
+  right: 2em;
+}
+a button.regresar:hover{
+    background: none;
+    cursor:pointer;
+    color: #444;
+
+}
+@font-face {
+  font-family: 'icomoon';
+  src:url('../fonts/icomoon.eot?55j2yk');
+  src:url('../fonts/icomoon.eot?#iefix55j2yk') format('embedded-opentype'),
+    url('../fonts/icomoon.woff?55j2yk') format('woff'),
+    url('../fonts/icomoon.ttf?55j2yk') format('truetype'),
+    url('../fonts/icomoon.svg?55j2yk#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-devolver:before {
+  content: "\e600";
+  margin-right: .2em;
+  vertical-align: middle;
+}
+
 @font-face {
   font-family: "Flat-UI-Icons";
   src: url('../fonts/flat-ui-icons-regular.eot');
@@ -37,65 +80,65 @@ div#noticia{
 
 
 body {
-	font-family: Helvetica, Arial, Verdana, sans-serif;
-	color: #3e3e3e;
-	font-size: 12px;
-	background:#bfbfbf;
+  font-family: Helvetica, Arial, Verdana, sans-serif;
+  color: #3e3e3e;
+  font-size: 12px;
+  background:#bfbfbf;
 
 }
 h1, h2 {
-	color: #3e3e3e;
-	font-family: Helvetica, sans-serif;
-	font-weight: 300;
-	margin:0 0 15px 0;
+  color: #3e3e3e;
+  font-family: Helvetica, sans-serif;
+  font-weight: 300;
+  margin:0 0 15px 0;
 }
 p {
-	margin: 0 0 15px 0;
+  margin: 0 0 15px 0;
 }
 
 a {
-	color: #3e3e3e;
+  color: #3e3e3e;
   vertical-align: middle;
 }
 
 
 
 .clear {
-	clear: both;
+  clear: both;
 }
 .wrap {
-	max-width: 100%;
-	z-index: 10;
-	position: relative;
-	margin: 0 auto;
-	padding: 0;
+  max-width: 100%;
+  z-index: 10;
+  position: relative;
+  margin: 0 auto;
+  padding: 0;
 
 }
 
 .section {
-	max-width: 100%;
-	z-index: 10;
-	position: relative;
-	margin: 0 auto;
-	padding: 0 0 20px 0;
+  max-width: 100%;
+  z-index: 10;
+  position: relative;
+  margin: 0 auto;
+  padding: 0 0 20px 0;
 }
 
 
 .inner {
-	max-width: 80%;
-	margin: 0 auto;
-	position: relative;
-	min-height: 50px;
-	padding:30px 0;
-	font-size: 18px;
-	font-family: Helvetica, sans-serif;
-	font-weight: 300;
+  max-width: 80%;
+  margin: 0 auto;
+  position: relative;
+  min-height: 50px;
+  padding:30px 0;
+  font-size: 18px;
+  font-family: Helvetica, sans-serif;
+  font-weight: 300;
 }
 
 .inner:after {
-	  content: "";
-	  display: table;
-	  clear: both;
+    content: "";
+    display: table;
+    clear: both;
 }
 
 
