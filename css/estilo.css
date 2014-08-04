@@ -839,17 +839,15 @@ form.formulario  button{
   line-height: 100%;
 
 }
-<<<<<<< HEAD
 .sTop h2 {
   font-size: 20px;
-=======
+}
 @media only screen and (max-width: 890px){
   .servi{
     display: block;
     width: 100%;
     margin-bottom: 1em;
   }
->>>>>>> origin/master
 }
 
     .sTop img{
