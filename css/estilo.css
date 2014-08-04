@@ -783,7 +783,6 @@ form.formulario  button{
 }
 .sTop img{
   max-width: 10em;
-  border-radius: .5em;
 }
 
 }
@@ -855,7 +854,7 @@ form.formulario  button{
      max-width: 10em;
      margin: 0 auto;
      padding-left: 2em;
-     border-radius: .5em;
+
 
     }
 
@@ -893,7 +892,6 @@ form.formulario  button{
      max-width: 10em;
      margin: 0 auto;
      padding-left: 2em;
-     border-radius: .5em;
 
     }
 
