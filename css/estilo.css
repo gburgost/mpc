@@ -6,6 +6,7 @@
   font-style: normal;
 }
 
+
 * {margin: 0; padding: 0; outline: 0;}
 
 
@@ -768,7 +769,7 @@ form.formulario  button{
 @media only screen and (max-width: 1073px){
   .sTop div.titulo{
   top:-4em;
-  padding-left: 1em;
+  padding-left: 2em;
 }
 
 .sTop h1 {
@@ -782,6 +783,7 @@ form.formulario  button{
 }
 .sTop img{
   max-width: 10em;
+  border-radius: .5em;
 }
 
 }
@@ -796,14 +798,11 @@ form.formulario  button{
 }
 
 @media only screen and (max-width: 890px){
-  .servi{
+  #servi{
     display: block;
     width: 100%;
     margin-bottom: 1em;
   }
-}
-
-
 }
 
 @media only screen and (max-width: 865px){
@@ -827,15 +826,14 @@ form.formulario  button{
 }
 
 
-
 @media only screen and (max-width: 788px){
    .sTop div.titulo{
-      padding-left: 1em;
-
+      padding-left: 2em;
+      top: 1em;
 
     }
 
-    .sTop h1 {
+    ..sTop h1 {
   font-size: 30px;
   letter-spacing: -1px;
   line-height: 100%;
@@ -844,38 +842,21 @@ form.formulario  button{
 .sTop h2 {
   font-size: 20px;
 }
+@media only screen and (max-width: 890px){
+  .servi{
+    display: block;
+    width: 100%;
+    margin-bottom: 1em;
+  }
 }
 
-@media only screen and (max-width: 760px){
+    .sTop img{
 
-  .sTop div.titulo{
-      padding-left: 1em;
      max-width: 10em;
      margin: 0 auto;
      padding-left: 2em;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-
-=======
->>>>>>> FETCH_HEAD
-=======
->>>>>>> FETCH_HEAD
-=======
->>>>>>> FETCH_HEAD
+     border-radius: .5em;
     }
-
-   .sTop h1 {
-  font-size: 25px;
-  letter-spacing: -1px;
-  line-height: 100%;
-
-}
-.sTop h2 {
-  font-size: 15px;
-}
-
 
 }
 
@@ -884,19 +865,16 @@ form.formulario  button{
   .s1 p{
 
     font-size: .7em;
-
   }
 }
 
 @media only screen and (max-width: 655px){
-<<<<<<< HEAD
 
    .sTop div.titulo{
       padding-left: 1em;
       top: 1em;
 
     }
-<<<<<<< HEAD
 
    .sTop h1 {
   font-size: 30px;
@@ -908,18 +886,11 @@ form.formulario  button{
   font-size: 20px;
 }
 
-
-=======
-
-=======
-
    .sTop div.titulo{
       padding-left: 1em;
       top: 1em;
-
     }
 
->>>>>>> FETCH_HEAD
    .sTop h1 {
   font-size: 30px;
   letter-spacing: -1px;
@@ -930,15 +901,9 @@ form.formulario  button{
   font-size: 20px;
 }
 
-
-<<<<<<< HEAD
->>>>>>> FETCH_HEAD
-=======
->>>>>>> FETCH_HEAD
-}
 @media only screen and (max-width: 557px){
   .sTop div.titulo{
-      padding-left: 1em;
+      padding-left: 2em;
       top: 1em;
 
     }
@@ -958,6 +923,7 @@ form.formulario  button{
      max-width: 10em;
      margin: 0 auto;
      padding-left: 2em;
+     border-radius: .5em;
 
     }
   }
@@ -973,21 +939,28 @@ form.formulario  button{
 
 @media only screen and (max-width: 400px){
 
+
   .sTop div.titulo{
-      padding-left: 1em;
+      padding-left: 2em;
       top: 1em;
 
     }
 
-    .sTop h1 {
-  font-size: 20px;
-  letter-spacing: -1px;
-  line-height: 100%;
+    .sTop h1{
+      font-size: 23px;
 
-}
-.sTop h2 {
-  font-size: 12px;
-}
+    }
+
+    .sTop h2{
+      font-size: 12px;
+
+    }
+
+    .sTop img{
+
+     max-width: 70%;
+     margin: 0 auto;
+     padding-left: 2em;
 
     }
 

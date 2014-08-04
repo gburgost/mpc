@@ -82,12 +82,12 @@ $(document).ready( function() {
 	 	<div class="inner">
 	 		<div class="rmm">
         <ul>
-          <li><a href="../index.html#inicio" class="subNavBtn">Inicio</a></li>
-          <li><a href="../index.html#primero" class="subNavBtn">Nosotros</a></li>
-          <li><a href="../index.html#segundo" class="subNavBtn">Servicios</a></li>
-          <li><a href="../index.html#tercero" class="subNavBtn">Clientes</a></li>
-          <li><a href="../index.html#cuarto" class="subNavBtn">Noticias</a></li>
-          <li><a href="../index.html#quinto" class="subNavBtn">Contacto</a></li>
+          <li><a href="../index.html#sTop" class="subNavBtn">Inicio</a></li>
+          <li><a href="../index.html#s1" class="subNavBtn">Nosotros</a></li>
+          <li><a href="../index.html#s2" class="subNavBtn">Servicios</a></li>
+          <li><a href="../index.html#s3" class="subNavBtn">Clientes</a></li>
+          <li><a href="../index.html#s4" class="subNavBtn">Noticias</a></li>
+          <li><a href="../index.html#s5" class="subNavBtn">Contacto</a></li>
         </ul>
       </div>
 		</div>
@@ -119,7 +119,6 @@ $(document).ready( function() {
         }
         mysql_close($conex);
         ?>
-        <a href="../index.html#cuarto"><button class="regresar icon-devolver">Regresar</button></a>
       </div>
 
     </div>
