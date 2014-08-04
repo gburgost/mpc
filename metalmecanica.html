@@ -13,33 +13,103 @@
 
 <script	src="js/jquery.smint.js" type="text/javascript" ></script>
 
+<script src="js/modernizr.js"></script>
+<!-- FlexSlider -->
+<link rel="stylesheet" href="flexslider/flexslider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="flexslider/flex.css" type="text/css" media="screen" />
+<script defer src="flexslider/jquery.flexslider.js"></script>
+
 <script type="text/javascript">
-
-
-$(document).ready( function() {
-    $('.subMenu').smint({
-    	'scrollSpeed' : 1000
-    });
+$(window).load(function() {
+  $('.flexslider').flexslider({
+    animation: "slide"
+  });
 });
-</script>
+  </script>
 </head>
 <body>
 	<div id="wrap">
-	<div class="subMenu" >
+	<div class="subMenu metalmeca" >
 	 	<div class="inner">
 			<div class="rmm">
 		 		<ul>
-			 		<li><a href="#sTop" class="subNavBtn">Inicio</a></li>
-			 		<li><a href="#s1" class="subNavBtn">Nosotros</a></li>
-					<li><a href="#s2" class="subNavBtn">Servicios</a></li>
-					<li><a href="#s3" class="subNavBtn">Clientes</a></li>
-					<li><a href="#s4" class="subNavBtn">Noticias</a></li>
-					<li><a href="#s5" class="subNavBtn">Contacto</a></li>
+			 		<li><a href="index.html#sTop" class="subNavBtn">Inicio</a></li>
+			 		<li><a href="index.html#s1" class="subNavBtn">Nosotros</a></li>
+					<li><a href="index.html#s2" class="subNavBtn">Servicios</a></li>
+					<li><a href="index.html#s3" class="subNavBtn">Clientes</a></li>
+					<li><a href="index.html#s4" class="subNavBtn">Noticias</a></li>
+					<li><a href="index.html#s5" class="subNavBtn">Contacto</a></li>
 				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="section metal">
+		<div class="inner">
+			<h1>Metalmecanica</h1>
+			<div class="flexslider">
+			  <ul class="slides">
+			    <li>
+			      <img src="slide1.jpg" />
+			    </li>
+			    <li>
+			      <img src="slide2.jpg" />
+			    </li>
+			    <li>
+			      <img src="slide3.jpg" />
+			    </li>
+			    <li>
+			      <img src="slide4.jpg" />
+			    </li>
+			  </ul>
+			</div>
+			<div class="contenido_metal">
+				Aquí va una descripcion del servicio metalmecanico
+			</div>
+		</div>
+
+	<div class="inner">
+		<div id="otros">
+		<h2 class="titulo">Otros servicios</h2>
+			<div class="servi otros">
+				<div class="visor efecto">
+					<a href="#">
+						<img src="Prevencion/trabajador.jpg" />
+						<div class="mascara">
+						<h2>Soldadura</h2>
+						<p>Descripcion</p>
+						<a href="#" class="info">Leer mas</a>
+						</div>
+					</a>
+				</div>
+			</div>
+			<div class="servi otros">
+				<div class="visor efecto">
+					<a href="#">
+						<img src="Prevencion/taller.jpg" />
+						<div class="mascara">
+						<h2>Aseo</h2>
+						<p>Descripcion</p>
+						<a href="#" class="info">Leer mas</a>
+						</div>
+					</a>
+				</div>
+			</div>
+				<div class="servi otros">
+				<div class="visor efecto">
+					<a href="#">
+						<img src="Prevencion/comite.jpg" />
+						<div class="mascara">
+						<h2>Comite</h2>
+						<p>Descripcion</p>
+						<a href="#" class="info">Leer mas</a>
+						</div>
+					</a>
+				</div>
 			</div>
 		</div>
 	</div>
 
 	</div>
+</div>
 </body>
 </html>
