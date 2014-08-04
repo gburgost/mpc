@@ -769,7 +769,7 @@ form.formulario  button{
 @media only screen and (max-width: 1073px){
   .sTop div.titulo{
   top:-4em;
-  padding-left: 2em;
+  padding-left: 1em;
 }
 
 .sTop h1 {
@@ -798,11 +798,14 @@ form.formulario  button{
 }
 
 @media only screen and (max-width: 890px){
-  #servi{
+  .servi{
     display: block;
     width: 100%;
     margin-bottom: 1em;
   }
+}
+
+
 }
 
 @media only screen and (max-width: 865px){
@@ -826,14 +829,15 @@ form.formulario  button{
 }
 
 
+
 @media only screen and (max-width: 788px){
    .sTop div.titulo{
-      padding-left: 2em;
-      top: 1em;
+      padding-left: 1em;
+
 
     }
 
-    ..sTop h1 {
+    .sTop h1 {
   font-size: 30px;
   letter-spacing: -1px;
   line-height: 100%;
@@ -842,22 +846,25 @@ form.formulario  button{
 .sTop h2 {
   font-size: 20px;
 }
-@media only screen and (max-width: 890px){
-  .servi{
-    display: block;
-    width: 100%;
-    margin-bottom: 1em;
-  }
 }
 
-    .sTop img{
+@media only screen and (max-width: 760px){
 
-     max-width: 10em;
-     margin: 0 auto;
-     padding-left: 2em;
-     border-radius: .5em;
+  .sTop div.titulo{
+      padding-left: 1em;
 
     }
+
+   .sTop h1 {
+  font-size: 25px;
+  letter-spacing: -1px;
+  line-height: 100%;
+
+}
+.sTop h2 {
+  font-size: 15px;
+}
+
 
 }
 
@@ -870,10 +877,29 @@ form.formulario  button{
   }
 }
 
+@media only screen and (max-width: 655px){
 
+   .sTop div.titulo{
+      padding-left: 1em;
+      top: 1em;
+
+    }
+
+   .sTop h1 {
+  font-size: 30px;
+  letter-spacing: -1px;
+  line-height: 100%;
+
+}
+.sTop h2 {
+  font-size: 20px;
+}
+
+
+}
 @media only screen and (max-width: 557px){
   .sTop div.titulo{
-      padding-left: 2em;
+      padding-left: 1em;
       top: 1em;
 
     }
@@ -887,15 +913,6 @@ form.formulario  button{
 .sTop h2 {
   font-size: 15px;
 }
-
-    .sTop img{
-
-     max-width: 10em;
-     margin: 0 auto;
-     padding-left: 2em;
-     border-radius: .5em;
-
-    }
 
 
 
@@ -912,28 +929,21 @@ form.formulario  button{
 
 @media only screen and (max-width: 400px){
 
-
   .sTop div.titulo{
-      padding-left: 2em;
+      padding-left: 1em;
       top: 1em;
 
     }
 
-    .sTop h1{
-      font-size: 23px;
+    .sTop h1 {
+  font-size: 20px;
+  letter-spacing: -1px;
+  line-height: 100%;
 
-    }
-
-    .sTop h2{
-      font-size: 12px;
-
-    }
-
-    .sTop img{
-
-     max-width: 70%;
-     margin: 0 auto;
-     padding-left: 2em;
+}
+.sTop h2 {
+  font-size: 12px;
+}
 
     }
 
