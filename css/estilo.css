@@ -38,15 +38,16 @@ h1, h2 {
 
 
 .sTop h1 {
-	font-size: 4em;
+	font-size: 50px;
 	letter-spacing: -1px;
 	line-height: 100%;
+
 }
 .sTop h2 {
-	font-size: 2em;
+	font-size: 30px;
 }
 .sTop img{
-	max-width: 25%;
+	max-width: 15em;
 	border-radius: .5em;
 }
 
@@ -708,23 +709,6 @@ form.formulario  button{
 
     }
 
-    .sTop div.titulo{
-      padding-left: 1.5em;
-      top: -3em;
-
-    }
-
-    .sTop h1{
-      font-size: 3.5em;
-      text-align: justify;
-    }
-
-    .sTop h2{
-      font-size: 1.8em;
-      text-align: justify;
-    }
-
-
 }
 
 @media only screen and (max-width: 1104px){
@@ -737,26 +721,29 @@ form.formulario  button{
 
 }
 
-@media only screen and (max-width: 1029px){
-
+@media only screen and (max-width: 1073px){
   .sTop div.titulo{
-      padding-left: 1em;
-      top: -3em;
+  top:-4em;
+  padding-left: 2em;
+}
 
-    }
-
-    .sTop h1{
-      font-size: 3em;
-      text-align: justify;
-    }
-
-    .sTop h2{
-      font-size: 1.7em;
-      text-align: justify;
-    }
-
+.sTop h1 {
+  font-size: 40px;
+  letter-spacing: -1px;
+  line-height: 100%;
 
 }
+.sTop h2 {
+  font-size: 20px;
+}
+.sTop img{
+  max-width: 10em;
+  border-radius: .5em;
+}
+
+}
+
+
 
 @media only screen and (max-width: 913px){
 
@@ -765,24 +752,12 @@ form.formulario  button{
     font-size: .8em;
 }
 
-@media only screen and (max-width: 879px){
-
-  .sTop div.titulo{
-      padding-left: 1em;
-      top: -2em;
-
-    }
-
-    .sTop h1{
-      font-size: 2.3em;
-      text-align: justify;
-    }
-
-    .sTop h2{
-      font-size: 1.2em;
-      text-align: justify;
-    }
-
+@media only screen and (max-width: 890px){
+  #servi{
+    display: block;
+    width: 100%;
+    margin-bottom: 1em;
+  }
 }
 
 @media only screen and (max-width: 865px){
@@ -806,32 +781,33 @@ form.formulario  button{
 }
 
 
-@media only screen and (max-width: 799px){
-
-  .sTop div.titulo{
-      padding-left: 1em;
-      top: -2em;
+@media only screen and (max-width: 788px){
+   .sTop div.titulo{
+      padding-left: 2em;
+      top: 1em;
 
     }
 
-    .sTop h1{
-      font-size: 2em;
-      text-align: justify;
-    }
+    ..sTop h1 {
+  font-size: 30px;
+  letter-spacing: -1px;
+  line-height: 100%;
 
-    .sTop h2{
-      font-size: 1em;
-      text-align: justify;
-    }
 }
-@media only screen and (max-width: 890px){
-  #servi{
-    display: block;
-    width: 100%;
-    margin-bottom: 1em;
-  }
+.sTop h2 {
+  font-size: 20px;
 }
 
+    .sTop img{
+
+     max-width: 10em;
+     margin: 0 auto;
+     padding-left: 2em;
+     border-radius: .5em;
+
+    }
+
+}
 
 @media only screen and (max-width: 687px){
 
@@ -842,43 +818,35 @@ form.formulario  button{
   }
 }
 
-@media only screen and (max-width: 581px){
 
+@media only screen and (max-width: 557px){
   .sTop div.titulo{
-      padding-left: 1em;
-      top: -2em;
+      padding-left: 2em;
+      top: 1em;
 
     }
 
-    .sTop h1{
-      font-size: 1.5em;
+    .sTop h1 {
+  font-size: 25px;
+  letter-spacing: -1px;
+  line-height: 100%;
 
-    }
-
-    .sTop h2{
-      font-size: -1.5em;
-
-    }
+}
+.sTop h2 {
+  font-size: 15px;
 }
 
-@media only screen and (max-width: 558px){
+    .sTop img{
 
-
-    .sTop div.titulo{
-      padding-left: 0em;
-      top: 0em;
-
-    }
-
-    .sTop h1{
-      font-size: 1.4em;
+     max-width: 10em;
+     margin: 0 auto;
+     padding-left: 2em;
+     border-radius: .5em;
 
     }
 
-    .sTop h2{
-      font-size: -1.4em;
 
-    }
+
   }
 
 @media only screen and (max-width: 524px){
@@ -900,12 +868,12 @@ form.formulario  button{
     }
 
     .sTop h1{
-      font-size: 1.2em;
+      font-size: 23px;
 
     }
 
     .sTop h2{
-      font-size: .7em;
+      font-size: 12px;
 
     }
 
