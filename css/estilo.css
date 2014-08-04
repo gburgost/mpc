@@ -454,7 +454,7 @@ a {
 
 
 .s5 {
-	height: 700px;
+	height: 100%;
 	background: #fff;
 	color: #313131;
 
@@ -561,7 +561,6 @@ form li{
     list-style-type:none;
 }
 form label {
-    float: left;
     color: #313131;
     display: inline-block;
     font-size: 25px;
@@ -968,7 +967,7 @@ form  input{
 
 
   #mapas{
-  width: 17em;
+
   display: inline-block;
 
 }
