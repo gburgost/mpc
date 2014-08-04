@@ -8,20 +8,17 @@
 
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
 <link href="css/estilo.css" rel="stylesheet" type="text/css">
+
 <script type="text/javascript" src="js/jquery.min.js"></script>
 <script type="text/javascript" src="js/responsivemobilemenu.js"></script>
 <script	src="js/jquery.smint.js" type="text/javascript" ></script>
 
 <script type="text/javascript">
-
-
 $(document).ready( function() {
     $('.subMenu').smint({
     	'scrollSpeed' : 1000
     });
 });
-
-
 </script>
 
 <!-- FlexSlider -->
@@ -57,18 +54,6 @@ $(document).ready( function() {
 
 
   <!--FIN FLEXSLIDER-->
-
- <script type="text/javascript">
-  $(document).ready(function(){ // Script del Navegador
-    $("ul.subnavegador").not('.selected').hide();
-    $("a.desplegable").click(function(e){
-      var desplegable = $(this).parent().find("ul.subnavegador");
-      $('.desplegable').parent().find("ul.subnavegador").not(desplegable).slideUp('slow');
-      desplegable.slideToggle('slow');
-      e.preventDefault();
-    })
- });
-</script>
 
 </head>
 <body>
@@ -182,19 +167,19 @@ $(document).ready( function() {
 		<div class="inner">
 			<h1>Servicios</h1>
 			<div class="servicios">
-				<div id="servi">
+				<div class="servi">
 				<div class="visor efecto">
-					<a href="#">
+					<a href="metalmecanica.html">
 						<img src="Prevencion/taller.jpg" />
 						<div class="mascara">
 						<h2>Metalmecanica</h2>
 						<p>Descripcion</p>
-						<a href="#" class="info">Leer mas</a>
+						<a href="metalmecanica.html" class="info">Leer mas</a>
 						</div>
 					</a>
 				</div>
 			</div>
-			<div id="servi">
+			<div class="servi">
 				<div class="visor efecto">
 					<a href="#">
 						<img src="Prevencion/trabajador.jpg" />
@@ -206,7 +191,7 @@ $(document).ready( function() {
 					</a>
 				</div>
 			</div>
-			<div id="servi">
+			<div class="servi">
 				<div class="visor efecto">
 					<a href="#">
 						<img src="Prevencion/taller.jpg" />
@@ -218,7 +203,7 @@ $(document).ready( function() {
 					</a>
 				</div>
 			</div>
-				<div id="servi">
+				<div class="servi">
 				<div class="visor efecto">
 					<a href="#">
 						<img src="Prevencion/comite.jpg" />
@@ -287,7 +272,7 @@ $(document).ready( function() {
 	<div class="section s4">
 		<div class="inner">
 			<h1>Noticias</h1>
-			<div id="servi">
+			<div class="servi">
 				<div class="visor efecto">
 					<a href="noticias/laboral.php">
 						<img src="Prevencion/comite.jpg" />
@@ -299,7 +284,7 @@ $(document).ready( function() {
 					</a>
 				</div>
 			</div>
-			<div id="servi">
+			<div class="servi">
 				<div class="visor efecto">
 					<a href="noticias/laboral.php">
 						<img src="Prevencion/taller.jpg" />

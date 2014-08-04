@@ -215,7 +215,7 @@ a {
 .rmm.minimal .rmm-toggled-controls {
   display:block;
   height:36px;
-  color:#333333;
+  color:#fff;
   text-align:left;
   position:relative;
 }
@@ -236,7 +236,7 @@ a {
   display:block;
   margin:4px 0px 4px 0px;
   height:2px;
-  background:#333333;
+  background:#fff;
   width:25px;
 }
 .rmm.minimal .rmm-toggled ul li a {
@@ -245,7 +245,7 @@ a {
   text-align:center;
   padding:10px 0px 10px 0px;
   border-bottom:1px solid #dedede;
-  color:#333333;
+  color:#fff;
 }
 .rmm.minimal .rmm-toggled ul li:first-child a {
   border-top:1px solid #dedede;
@@ -286,7 +286,7 @@ a {
 	color: #fff;
 }
 
-#servi{
+.servi{
   display: inline-block;
   margin: 0 auto;
   margin-bottom: 1em;
@@ -668,6 +668,51 @@ button:active {
 #mapas h2{
   color: #313131;
 }
+
+.metal{
+  background: white;
+  color: #313131;
+  height: 100%;
+  top: 51px;
+}
+.metalmeca{
+  position: fixed;
+}
+.metal h1{
+  color: #313131;
+}
+.metal .flexslider,.metal .contenido_metal{
+  max-width: 100%;
+  float: left;
+
+}
+.metal #otros h2.titulo{
+  color: #313131;
+}
+
+.metal #otros{
+display: none;
+}
+
+@media screen and (min-width: 890px){
+  .metal .flexslider,.metal .contenido_metal{
+  width: 45%;
+}
+  .metal .contenido_metal{
+    margin-left: 1em;
+  }
+  .metal #otros{
+    display: block;
+}
+
+}
+@media screen and (min-width: 1245px){
+  .metal #otros .otros{
+    width: 33%;
+  }
+}
+
+
 /* Media JQuery es para posicionar la imagen de nuestra pagina dependiendo de la altura y la anchura de como se esta viendo la pagina en el navegador */
 
 
@@ -794,8 +839,17 @@ form.formulario  button{
   line-height: 100%;
 
 }
+<<<<<<< HEAD
 .sTop h2 {
   font-size: 20px;
+=======
+@media only screen and (max-width: 890px){
+  .servi{
+    display: block;
+    width: 100%;
+    margin-bottom: 1em;
+  }
+>>>>>>> origin/master
 }
 
     .sTop img{
