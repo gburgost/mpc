@@ -716,56 +716,46 @@ display: none;
 
 
 
-@media only screen and (max-width: 1146px){
+@media  screen and (max-width: 1146px){
   #mapas{
   width: 100%;
   padding-right: 0em;
   top: 0em;
   display: inline-block;
-
 }
 
 .s5 {
   height: 100%;
-
-
-}
-
-form textarea{
-    width: 16.5em;
-    height: 8em;
-
 }
 
 form.formulario  button{
     text-align: center;
     width: 7.7em;
+  }
+
+  form textarea{
+    width: 16.5em;
+    height: 8em;
+}
 }
 
-}
-
-@media only screen and (max-width: 1134px){
-
+@media screen and (max-width: 1134px){
 
     .sTop #fondonegro{
         max-width: 100%;
         padding: 2em 2em 1em 2em;
-
     }
-
 }
 
-@media only screen and (max-width: 1104px){
+@media screen and (max-width: 1104px){
 
   .s1 p{
-
     font-size: .9em;
-
   }
-
 }
 
-@media only screen and (max-width: 1073px){
+@media screen and (max-width: 1073px){
+
   .sTop div.titulo{
   top:-4em;
   padding-left: 1em;
@@ -775,181 +765,152 @@ form.formulario  button{
   font-size: 40px;
   letter-spacing: -1px;
   line-height: 100%;
-
 }
+
 .sTop h2 {
   font-size: 20px;
 }
+
 .sTop img{
   max-width: 10em;
   border-radius: .5em;
 }
-
 }
 
-
-
-@media only screen and (max-width: 913px){
+@media  screen and (max-width: 913px){
 
   .s1 p{
-
     font-size: .8em;
 }
 
-@media only screen and (max-width: 890px){
+@media screen and (max-width: 890px){
+
   .servi{
     display: block;
     width: 100%;
     margin-bottom: 1em;
-  }
-}
+      }
+    }
 
-
-}
-
-@media only screen and (max-width: 865px){
+@media screen and (max-width: 865px){
 
   .s1 p{
-
     font-size: .8em;
-
   }
 }
 
-
-@media only screen and (max-width: 844px){
+@media screen and (max-width: 844px){
 
   form.formulario  button{
     text-align: center;
     width: 16em;
     display: inline-block;
+  }
 }
 
-}
+@media  screen and (max-width: 788px){
 
-
-
-@media only screen and (max-width: 788px){
    .sTop div.titulo{
       padding-left: 1em;
-
-
     }
-
-    .sTop h1 {
+  .sTop h1 {
   font-size: 30px;
   letter-spacing: -1px;
   line-height: 100%;
-
 }
+
 .sTop h2 {
   font-size: 20px;
 }
 }
 
-@media only screen and (max-width: 760px){
+@media  screen and (max-width: 760px){
 
   .sTop div.titulo{
       padding-left: 1em;
-
     }
 
    .sTop h1 {
   font-size: 25px;
   letter-spacing: -1px;
   line-height: 100%;
-
 }
+
 .sTop h2 {
   font-size: 15px;
 }
-
-
 }
 
-@media only screen and (max-width: 687px){
+@media  screen and (max-width: 687px){
 
   .s1 p{
-
     font-size: .7em;
-
+    }
   }
-}
 
-@media only screen and (max-width: 655px){
+@media  screen and (max-width: 655px){
 
    .sTop div.titulo{
       padding-left: 1em;
       top: 1em;
-
     }
 
    .sTop h1 {
   font-size: 30px;
   letter-spacing: -1px;
   line-height: 100%;
-
 }
+
 .sTop h2 {
   font-size: 20px;
 }
-
-
 }
-@media only screen and (max-width: 557px){
+
+@media  screen and (max-width: 557px){
+
   .sTop div.titulo{
       padding-left: 1em;
       top: 1em;
-
     }
 
     .sTop h1 {
   font-size: 25px;
   letter-spacing: -1px;
   line-height: 100%;
-
 }
+
 .sTop h2 {
   font-size: 15px;
 }
+}
 
-
-
-  }
-
-@media only screen and (max-width: 524px){
+@media  screen and (max-width: 524px){
 
   .s1 p{
-
     font-size: .6em;
-
   }
 }
 
-@media only screen and (max-width: 400px){
+@media  screen and (max-width: 400px){
 
   .sTop div.titulo{
       padding-left: 1em;
       top: 1em;
-
     }
 
     .sTop h1 {
   font-size: 20px;
   letter-spacing: -1px;
   line-height: 100%;
-
 }
+
 .sTop h2 {
   font-size: 12px;
 }
 
-    }
-
     form textarea{
     width: 15em;
     height: 8em;
-
 }
 
 form.formulario  button{
@@ -960,18 +921,13 @@ form.formulario  button{
 }
 
 form  input{
-
    width: 14em;
    margin: 0 auto;
 }
 
-
   #mapas{
-
   display: inline-block;
-
 }
-
 
 }
 
