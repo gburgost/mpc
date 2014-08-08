@@ -17,6 +17,29 @@ body {
 	background:#bfbfbf;
 
 }
+
+footer{
+  color: rgba(255,255,255,0.7);
+  background: #313131;
+  text-align: center;
+}
+footer p{
+  font-size: 14px;
+
+}
+footer p:first-child{
+  margin-bottom:0;
+}
+footer p:last-child{
+  margin-top: 0;
+}
+footer p:last-child:before{
+  content: "- ";
+}
+footer p:last-child:after{
+  content: " -";
+}
+
 h1, h2 {
 	color: #fff;
 	font-weight: 300;
@@ -257,7 +280,9 @@ a {
 .rmm.minimal .rmm-toggled ul li:first-child a {
   border-top:1px solid #dedede;
 }
-
+.rmm.minimal .rmm-toggled ul li:last-child a {
+  border-radius: 0 0 .5em .5em;
+}
 
 /* FIN ESTILO MENU Y MENU MOBILE */
 
