@@ -110,9 +110,7 @@ a {
 	background: #006b4e;
   box-shadow: rgba(0,0,0,.5) 0px 8px 20px;
 }
-.subMenu img{
-	width:5em;
-}
+
 .subMenu .inner {
 	padding:0;
 	margin: 0 auto;
@@ -131,8 +129,12 @@ a {
 	text-align: center;
 	color: #fff;
 }
+.subMenu a{
+    -webkit-transition: .3s;
+}
 .subMenu a:hover {
 	background: #E57709;
+
 }
 
 .active {
@@ -147,12 +149,13 @@ a {
 
 .rmm {
   display:block;
-  position:relative;
+  position: absolute;
   width:100%;
   padding:0px;
   margin:0 auto !important;
   text-align: center;
   line-height:19px !important;
+  cursor: pointer;
 }
 
 
@@ -240,6 +243,7 @@ a {
   width:25px;
 }
 .rmm.minimal .rmm-toggled ul li a {
+  background: #006b4e;
   display:block;
   width:100%;
   text-align:center;
@@ -247,6 +251,9 @@ a {
   border-bottom:1px solid #dedede;
   color:#fff;
 }
+.rmm.minimal .rmm-toggled ul li a:hover {
+  background: #E57709;
+  }
 .rmm.minimal .rmm-toggled ul li:first-child a {
   border-top:1px solid #dedede;
 }
@@ -745,6 +752,11 @@ form.formulario  button{
         max-width: 100%;
         padding: 2em 2em 1em 2em;
     }
+}
+@media screen and (min-width: 1131px){
+  .rmm{
+    position: relative;
+  }
 }
 
 @media screen and (max-width: 1104px){
