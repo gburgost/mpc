@@ -26,8 +26,8 @@ if($postback){
             "archivos/" . $_FILES["foto"]["name"]);
             $titulo = (ucfirst($_POST["titulo"]));
               $subtitulo = $_POST["subtitulo"];
+              $detalle =  $_POST["detalle"];
               $tfoto = "archivos/".$_FILES["foto"]["name"]."";
-              $detalle = (nl2br(htmlspecialchars(urldecode($_POST["detalle"]))));
               $link = mysqli_connect(DBHOST, DBUSER, DBPASSWORD, DBNAME) or die(mysql_error($link));
 
               $sql = "INSERT INTO laboral(titulo, subtitulo, detalle, foto)
