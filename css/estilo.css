@@ -74,6 +74,9 @@ h1, h2 {
 	border-radius: .5em;
 }
 
+p img{
+  max-width: 7em;
+}
 
 p {
 	margin: 0 0 15px 0;
