@@ -5,10 +5,10 @@
 
 <?php include_once("config.php"); ?>
 
-<title>Metalurgica Puerto Caldera</title>
+<title>Noticias Laborales</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-
+<link rel="shortcut icon" type="image/x-ico" href="favicon.ico"/>
 
 
 <link href="estilo_noticias.css" rel="stylesheet" type="text/css">
