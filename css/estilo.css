@@ -686,12 +686,13 @@ button:active {
   content: "\e00b";
 }
 #contacto1, #mapas{
-	display: inline-block;
+  float: left;
 	width: 100%;
 	margin: 0 auto;
 }
 #contacto1{
   max-width: 50%;
+  padding-bottom: 3em;
 }
 #mapas{
   width: 45%;
